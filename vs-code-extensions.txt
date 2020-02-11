@@ -16,3 +16,111 @@ PKief.material-icon-theme
 SmukkeKim.theme-setimonokai
 wix.vscode-import-cost
 WallabyJs.quokka-vscode
+
+
+Font
+
+    Anonymous Pro
+
+Extensions
+Themes/Color
+
+    Original theme I use in most videos:
+        Theme - Seti-Monokai
+    I've been using this darker modification of the above theme lately:
+        Seti-Black
+    Material Icon Theme
+    Bracket Pair Colorizer
+        Matching parenthesis and curly brackets to with colors
+
+Workflow
+
+    advanced-new-file
+        Adds the ability to create files anywhere in your workspace.
+    Auto Close Tag
+        Automatically add HTML/XML close tag
+    Auto Rename Tag
+        Automatically rename paired HTML/XML tag
+    FontSize ShortCuts
+        Change the font size with keyboard shortcuts.
+    Toggle Quotes
+        cmd ' (ctrl ' on win/linux) will cycle the first quote pair found (from the start/end of the section) between ', ", `
+
+IntelliSense/AutoComplete
+
+    IntelliSense for CSS class names in HTML
+        Provides CSS class name completion for the HTML class attribute based on the definitions found in your workspace or external files referenced through the link element
+    npm Intellisense
+        Autocompletes npm modules in import/require statements
+    Path Intellisense
+        Autocompletes filenames
+    Vetur
+        Vue tooling
+
+Style/Formatting
+
+    ESLint
+        Integrates ESLint JS
+    Beautify
+        Automatically format javascript, JSON, CSS, Sass, and HTML files.
+
+Useful/Extra
+
+    Import Cost
+        Display inline the size of the required/imported package
+    Quokka.js
+        Evaluate code/logs inline and show results in the editor
+    VS Live Share
+        Collaborative editing, debugging, and more inside VS Code
+
+Settings
+
+{
+    "explorer.openEditors.visible": 0,
+    "editor.snippetSuggestions": "top",
+    "emmet.showAbbreviationSuggestions": false,
+    "editor.multiCursorModifier": "ctrlCmd",
+    "editor.formatOnPaste": false,
+    "workbench.colorTheme": "Seti Black",
+    "window.zoomLevel": 1,
+    "workbench.iconTheme": "vscode-icons",
+    "editor.fontSize": 21,
+    "editor.fontLigatures": true,
+    "terminal.integrated.fontSize": 24,
+    "files.autoSave": "onFocusChange",
+    "editor.fontFamily": "Anonymous Pro",
+    "editor.tabSize": 2,
+    "editor.lineHeight": 0,
+    "markdown.preview.fontSize": 36,
+    "editor.minimap.enabled": false,
+    "eslint.enable": true,
+    "eslint.validate": [
+        {
+            "language": "vue",
+            "autoFix": true
+        },
+        {
+            "language": "html",
+            "autoFix": true
+        },
+        {
+            "language": "javascript",
+            "autoFix": true
+        }
+    ],
+    "workbench.startupEditor": "newUntitledFile",
+    "editor.suggestSelection": "first",
+    "[javascript]": {
+        "editor.defaultFormatter": "HookyQR.beautify"
+    },
+    "[json]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[html]": {
+        "editor.defaultFormatter": "HookyQR.beautify"
+    },
+    "[css]": {
+        "editor.defaultFormatter": "HookyQR.beautify"
+    },
+    "liveshare.featureSet": "insiders"
+}
